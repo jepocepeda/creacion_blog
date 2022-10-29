@@ -1,0 +1,125 @@
+/*********************************************************************************************************
+*	Proceso:            Hoja de estillo CSS3			
+*	Desarrollador:		Jefferson Cepeda Ramos				
+*	Correo:				jefferson.cepeda070@comunidadunir.net
+*	Fecha:				25/10/2022
+*	Versión:			1.0
+*********************************************************************************************************/
+header {
+    text-align: center;
+    color: black;
+    background-image: url("../Img/Banner.jpg");
+}
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    background-image: url("../Img/Fondo.jpg");
+    list-style: whitesmoke;
+}
+nav a{
+    text-decoration: none;
+    color:black;
+    padding: 40px;
+    width: 250px;
+}
+nav a:hover{color: whitesmoke;}
+a:link {
+    color: greenyellow;
+}
+a:visited {
+    color: goldenrod;
+}
+a:hover {
+    color: blue;
+}
+a:active {
+    color: greenyellow;
+}
+nav ul{
+    background-color:black;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    background-color:rgb(65, 64, 64);
+    color:white;
+    padding: 20px;
+}
+.contenido {
+    text-align: justify;
+}
+.Img_Perfil{
+    width: 200px;
+    border-radius: 50%;
+}
+.Img_html5{
+    width: 200px;
+}
+.Img_css3{
+    width: 150px;
+}
+.Img_javascript{
+    width: 350px;
+}
+
+.form-contacto{
+    width: 500px;
+    background: rgb(10, 2, 32);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    box-shadow: 7px 13px 37px black;
+}
+.form-contacto h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.controls {
+    width: 100%;
+    background: rgb(9, 2, 43);
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.form-contacto p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+.form-contacto a{
+    color: white;
+    text-decoration: none;
+}
+.form-contacto a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.form-contacto .botons{
+    width: 100%;
+    background: blue;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    background-color: goldenrod;
+    color: black;
+}
+
